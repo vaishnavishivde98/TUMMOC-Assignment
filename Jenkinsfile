@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/vaishnavishivde98/TUMMOC-Assignment.git'
+                git branch: 'main', url: 'https://github.com/vaishnavishivde98/TUMMOC-Assignment.git'
             }
         }
 
